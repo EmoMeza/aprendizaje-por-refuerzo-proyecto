@@ -162,10 +162,11 @@ async def main():
     # Carga de pesos si existen
     weights_path = os.path.join(weights_folder, 'heur_500k_dqn_weights.h5f')
     if os.path.exists(weights_path):
+        print("\n\n\n\n\n\nLoading weights from file.\n\n\n\n\n\n\n")
         dqn.load_weights(weights_path)
 
     # Entrenamiento del agente
-    dqn.fit(train_env, nb_steps=1000)
+    dqn.fit(train_env, nb_steps=50000)
     
     # Guardado de los pesos después del entrenamiento
     dqn.save_weights(os.path.join(weights_folder, 'heur_500k_dqn_weights.h5f'), overwrite=True)
@@ -178,7 +179,7 @@ async def main():
     print(f"DQN Evaluation: {eval_env.n_won_battles} victories out of {eval_env.n_finished_battles} episodes")
 
     second_opponent = MaxBasePowerPlayer(battle_format="gen8ou", team=my_team)
-    eval_env.reset_env(restart=True, opponent=second_opponent, team=my_team)
+    eval_env.reset_env(restart=True, opponent=second_opponent)
     print("Results against max base power player:")
     dqn.test(eval_env, nb_episodes=1000, verbose=False, visualize=False)
     print(f"DQN Evaluation: {eval_env.n_won_battles} victories out of {eval_env.n_finished_battles} episodes")
