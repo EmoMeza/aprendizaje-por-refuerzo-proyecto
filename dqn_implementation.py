@@ -128,7 +128,6 @@ class SimpleRLPlayer(Gen8EnvSinglePlayer):
 # Función principal del programa
 async def main():
 
-
     # Configuración del entorno de prueba y entrenamiento
     opponent = SimpleHeuristicsPlayer(battle_format="gen8ou", team=my_team)
     test_env = SimpleRLPlayer(battle_format="gen8ou", start_challenging=True, opponent=opponent, team=my_team)
@@ -166,7 +165,7 @@ async def main():
         dqn.load_weights(weights_path)
 
     # Entrenamiento del agente
-    dqn.fit(train_env, nb_steps=50000)
+    dqn.fit(train_env, nb_steps=100000)
     
     # Guardado de los pesos después del entrenamiento
     dqn.save_weights(os.path.join(weights_folder, 'heur_500k_dqn_weights.h5f'), overwrite=True)
