@@ -1,0 +1,56 @@
+Skarmory @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 232 Def / 24 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roost  
+- Toxic  
+- Whirlwind  
+
+Greninja @ Choice Specs  
+Ability: Battle Bond  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Water Shuriken  
+- Ice Beam  
+- Dark Pulse  
+- U-turn  
+
+Landorus-Therian (M) @ Choice Scarf  
+Ability: Intimidate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- U-turn  
+- Knock Off  
+
+Tapu Koko @ Tapunium Z  
+Ability: Electric Surge  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Protect  
+- Roost  
+- Volt Switch  
+- Dazzling Gleam  
+
+Mimikyu @ Mimikium Z  
+Ability: Disguise  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Protect  
+- Play Rough  
+- Shadow Sneak  
+- Swords Dance  
+
+Blacephalon @ Life Orb  
+Ability: Beast Boost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Fire Blast  
+- Heat Wave  
+- Protect  
