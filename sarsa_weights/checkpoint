@@ -1,0 +1,2 @@
+model_checkpoint_path: "heur_150k_sarsa_weights.h5f"
+all_model_checkpoint_paths: "heur_150k_sarsa_weights.h5f"
