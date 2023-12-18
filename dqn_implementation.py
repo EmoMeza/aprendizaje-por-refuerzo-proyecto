@@ -165,7 +165,7 @@ async def main():
         dqn.load_weights(weights_path)
 
     # Entrenamiento del agente
-    dqn.fit(train_env, nb_steps=100000)
+    dqn.fit(train_env, nb_steps=200000)
     
     # Guardado de los pesos después del entrenamiento
     dqn.save_weights(os.path.join(weights_folder, 'heur_500k_dqn_weights.h5f'), overwrite=True)

@@ -1,0 +1,2 @@
+model_checkpoint_path: "heur_500k_double_dqn_weights.h5f"
+all_model_checkpoint_paths: "heur_500k_double_dqn_weights.h5f"
